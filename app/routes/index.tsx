@@ -65,6 +65,7 @@ export default function Index() {
 
   return (
     <div className='flex flex-col items-center' >
+      <h1 className='text-5xl antialiased font-extrabold my-4'>Remix Social</h1>
       <PostForm 
         action='/?index'
         error={formData?.error}
